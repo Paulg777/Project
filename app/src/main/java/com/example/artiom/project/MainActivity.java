@@ -12,6 +12,7 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity {
 
     @Override
+    // made a changr
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -22,11 +23,13 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, " We made a change to the app", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -49,4 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
