@@ -10,7 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
-
+    
     @Override
     // made a changr
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, " We made a change to the app", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, " This is a test change", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
